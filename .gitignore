@@ -1,0 +1,52 @@
+# ----------------------------------------------------------------------------
+# .NET / Visual Studio
+# ----------------------------------------------------------------------------
+## Build results
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+[Bb]in/
+[Oo]bj/
+[Aa]rtifacts/
+[Ll]ogs/
+*.user
+*.suo
+*.userprefs
+*.cache
+*.log
+*.tlog
+
+## Visual Studio / VS Code / Rider
+.vs/
+.vscode/
+.idea/
+*.swp
+*~ 
+*.DS_Store
+
+## NuGet
+*.nupkg
+*.snupkg
+.nuget/
+packages/
+project.lock.json
+project.fragment.lock.json
+
+## Test results
+[Tt]est[Rr]esult/
+[Bb]uild[Ll]og.*
+TestResults/
+*.coverage
+*.coveragexml
+coverage/
+
+## EF Core local databases & design-time files
+*.db
+*.db-shm
+*.db-wal
+ordermanagement.db
+ordermanagement_design.db
+
+# Keep the schema.sql and migrations (do NOT ignore them)
+!schema.sql
