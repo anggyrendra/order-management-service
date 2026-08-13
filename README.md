@@ -1,4 +1,4 @@
-# Order Management API — Senior .NET Developer Test (PT Adaya Solusi Teknologi)
+# Order Management API
 
 A concurrency-first REST API for Order Management built with **ASP.NET Core 8** and **Entity Framework Core 8**, designed to solve the four real-world problems described in the test brief: **double orders**, **stock going negative under concurrent requests**, **inconsistent order status updates**, and **insufficient logging**.
 
@@ -7,8 +7,6 @@ The central concern of this prototype is **correctness under concurrency**. Ever
 ---
 
 ## Table of Contents
-
-0. [Quick Upload to GitHub](#quick-upload-to-github)
 1. [Tech Stack & Project Structure](#tech-stack--project-structure)
 2. [How to Run](#how-to-run)
 3. [How to Test](#how-to-test)
@@ -20,35 +18,6 @@ The central concern of this prototype is **correctness under concurrency**. Ever
 9. [Logging with Correlation ID](#5-logging-with-correlation-id)
 10. [Database Choice & Schema](#6-database-choice--schema)
 11. [Testing Strategy](#7-testing-strategy)
-
----
-
-## Quick Upload to GitHub
-
-This repository is ready to push. After extracting the zip:
-
-```bash
-# 1. Extract the zip
-unzip OrderManagement_GitHub.zip
-cd OrderManagement
-
-# 2. (Optional) Verify it builds and tests pass
-dotnet build    # 0 warnings, 0 errors
-dotnet test     # 35 passed, 0 failed
-
-# 3. Initialize git and push to your GitHub repository
-git init
-git add .
-git commit -m "feat: Order Management API - Senior .NET Developer Test"
-git branch -M main
-git remote add origin https://github.com/<your-username>/<your-repo>.git
-git push -u origin main
-```
-
-Alternatively, you can upload directly via the GitHub web interface:
-1. Create a new repository on GitHub (do NOT initialize with README/license/.gitignore — they are already included).
-2. Extract the zip locally.
-3. Drag and drop all files into the GitHub upload page, or use `git push` as above.
 
 ---
 
